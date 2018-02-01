@@ -16,6 +16,27 @@
 		20D1405D2021A1DD008570CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1405C2021A1DD008570CC /* main.m */; };
 		20D140672021A1DD008570CC /* CMMediaCallDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D140662021A1DD008570CC /* CMMediaCallDemoTests.m */; };
 		20D140722021A1DD008570CC /* CMMediaCallDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D140712021A1DD008570CC /* CMMediaCallDemoUITests.m */; };
+		20D140912021A2BC008570CC /* CMAllMediaVoipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D140822021A2BC008570CC /* CMAllMediaVoipView.m */; };
+		20D140922021A2BC008570CC /* CMAllMediaVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D140842021A2BC008570CC /* CMAllMediaVerticalButton.m */; };
+		20D140932021A2BC008570CC /* CMAllMediaRTCChatManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D140882021A2BC008570CC /* CMAllMediaRTCChatManager.m */; };
+		20D140942021A2BC008570CC /* CMAllMediaVideoCallView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1408A2021A2BC008570CC /* CMAllMediaVideoCallView.m */; };
+		20D140952021A2BC008570CC /* CMAllMediaReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D1408F2021A2BC008570CC /* CMAllMediaReachability.m */; };
+		20D140962021A2BC008570CC /* CMAllMediaStatusManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D140902021A2BC008570CC /* CMAllMediaStatusManager.m */; };
+		20D1409D2021A32E008570CC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D1409C2021A32E008570CC /* AVFoundation.framework */; };
+		20D1409F2021A337008570CC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D1409E2021A337008570CC /* AudioToolbox.framework */; };
+		20D140A12021A33D008570CC /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140A02021A33D008570CC /* VideoToolbox.framework */; };
+		20D140A32021A346008570CC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140A22021A346008570CC /* CoreMotion.framework */; };
+		20D140A52021A34E008570CC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140A42021A34E008570CC /* CoreMedia.framework */; };
+		20D140A72021A356008570CC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140A62021A356008570CC /* CoreTelephony.framework */; };
+		20D140A92021A35B008570CC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140A82021A35B008570CC /* CFNetwork.framework */; };
+		20D140AB2021A360008570CC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140AA2021A360008570CC /* SystemConfiguration.framework */; };
+		20D140AD2021A36B008570CC /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140AC2021A36B008570CC /* libicucore.tbd */; };
+		20D140AF2021A374008570CC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140AE2021A374008570CC /* libc++.tbd */; };
+		20D140B12021A37E008570CC /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140B02021A37E008570CC /* libresolv.tbd */; };
+		20D140B72021A4D5008570CC /* CMAMNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D140B62021A4D5008570CC /* CMAMNetworkManager.m */; };
+		20D140B92021A5A4008570CC /* AgoraRtcEngineKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140B82021A5A3008570CC /* AgoraRtcEngineKit.framework */; };
+		20D140BB2021A5B0008570CC /* AgoraSignal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20D140BA2021A5B0008570CC /* AgoraSignal.framework */; };
+		20D140BE2021AC32008570CC /* CMAMUserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D140BD2021AC32008570CC /* CMAMUserInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +74,38 @@
 		20D1406D2021A1DD008570CC /* CMMediaCallDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CMMediaCallDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D140712021A1DD008570CC /* CMMediaCallDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMMediaCallDemoUITests.m; sourceTree = "<group>"; };
 		20D140732021A1DD008570CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D140812021A2BC008570CC /* CMAllMediaVoipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaVoipView.h; sourceTree = "<group>"; };
+		20D140822021A2BC008570CC /* CMAllMediaVoipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaVoipView.m; sourceTree = "<group>"; };
+		20D140842021A2BC008570CC /* CMAllMediaVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaVerticalButton.m; sourceTree = "<group>"; };
+		20D140852021A2BC008570CC /* CMAllMediaVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaVerticalButton.h; sourceTree = "<group>"; };
+		20D140872021A2BC008570CC /* CMAllMediaRTCChatManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaRTCChatManager.h; sourceTree = "<group>"; };
+		20D140882021A2BC008570CC /* CMAllMediaRTCChatManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaRTCChatManager.m; sourceTree = "<group>"; };
+		20D1408A2021A2BC008570CC /* CMAllMediaVideoCallView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaVideoCallView.m; sourceTree = "<group>"; };
+		20D1408B2021A2BC008570CC /* CMAllMediaVideoCallView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaVideoCallView.h; sourceTree = "<group>"; };
+		20D1408D2021A2BC008570CC /* CMAllMediaReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaReachability.h; sourceTree = "<group>"; };
+		20D1408E2021A2BC008570CC /* CMAllMediaStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CMAllMediaStatusManager.h; sourceTree = "<group>"; };
+		20D1408F2021A2BC008570CC /* CMAllMediaReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaReachability.m; sourceTree = "<group>"; };
+		20D140902021A2BC008570CC /* CMAllMediaStatusManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMAllMediaStatusManager.m; sourceTree = "<group>"; };
+		20D140982021A2FF008570CC /* AgoraSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraSignal.framework; path = CMMediaCallDemo/libs/signal/AgoraSignal.framework; sourceTree = "<group>"; };
+		20D1409A2021A30A008570CC /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcEngineKit.framework; path = CMMediaCallDemo/libs/media/AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
+		20D1409C2021A32E008570CC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		20D1409E2021A337008570CC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		20D140A02021A33D008570CC /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		20D140A22021A346008570CC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		20D140A42021A34E008570CC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		20D140A62021A356008570CC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		20D140A82021A35B008570CC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		20D140AA2021A360008570CC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		20D140AC2021A36B008570CC /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		20D140AE2021A374008570CC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		20D140B02021A37E008570CC /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		20D140B32021A3E7008570CC /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		20D140B52021A4D5008570CC /* CMAMNetworkManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAMNetworkManager.h; sourceTree = "<group>"; };
+		20D140B62021A4D5008570CC /* CMAMNetworkManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAMNetworkManager.m; sourceTree = "<group>"; };
+		20D140B82021A5A3008570CC /* AgoraRtcEngineKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraRtcEngineKit.framework; path = CMMediaCallDemo/CMAMMediaSDK/libs/media/AgoraRtcEngineKit.framework; sourceTree = "<group>"; };
+		20D140BA2021A5B0008570CC /* AgoraSignal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AgoraSignal.framework; path = CMMediaCallDemo/CMAMMediaSDK/libs/signal/AgoraSignal.framework; sourceTree = "<group>"; };
+		20D140BC2021AC32008570CC /* CMAMUserInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CMAMUserInfo.h; sourceTree = "<group>"; };
+		20D140BD2021AC32008570CC /* CMAMUserInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CMAMUserInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +113,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D140BB2021A5B0008570CC /* AgoraSignal.framework in Frameworks */,
+				20D140B92021A5A4008570CC /* AgoraRtcEngineKit.framework in Frameworks */,
+				20D140B12021A37E008570CC /* libresolv.tbd in Frameworks */,
+				20D140AF2021A374008570CC /* libc++.tbd in Frameworks */,
+				20D140AD2021A36B008570CC /* libicucore.tbd in Frameworks */,
+				20D140AB2021A360008570CC /* SystemConfiguration.framework in Frameworks */,
+				20D140A92021A35B008570CC /* CFNetwork.framework in Frameworks */,
+				20D140A72021A356008570CC /* CoreTelephony.framework in Frameworks */,
+				20D140A52021A34E008570CC /* CoreMedia.framework in Frameworks */,
+				20D140A32021A346008570CC /* CoreMotion.framework in Frameworks */,
+				20D140A12021A33D008570CC /* VideoToolbox.framework in Frameworks */,
+				20D1409F2021A337008570CC /* AudioToolbox.framework in Frameworks */,
+				20D1409D2021A32E008570CC /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +153,7 @@
 				20D140652021A1DD008570CC /* CMMediaCallDemoTests */,
 				20D140702021A1DD008570CC /* CMMediaCallDemoUITests */,
 				20D140482021A1DD008570CC /* Products */,
+				20D140972021A2FF008570CC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +170,12 @@
 		20D140492021A1DD008570CC /* CMMediaCallDemo */ = {
 			isa = PBXGroup;
 			children = (
+				20D140B42021A48B008570CC /* CMAMMediaSDK */,
+				20D140B52021A4D5008570CC /* CMAMNetworkManager.h */,
+				20D140B62021A4D5008570CC /* CMAMNetworkManager.m */,
+				20D140BC2021AC32008570CC /* CMAMUserInfo.h */,
+				20D140BD2021AC32008570CC /* CMAMUserInfo.m */,
+				20D140B32021A3E7008570CC /* Header.h */,
 				20D1404A2021A1DD008570CC /* AppDelegate.h */,
 				20D1404B2021A1DD008570CC /* AppDelegate.m */,
 				20D1404D2021A1DD008570CC /* ViewController.h */,
@@ -133,6 +206,95 @@
 				20D140732021A1DD008570CC /* Info.plist */,
 			);
 			path = CMMediaCallDemoUITests;
+			sourceTree = "<group>";
+		};
+		20D1407F2021A1FF008570CC /* libs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = libs;
+			sourceTree = "<group>";
+		};
+		20D140802021A2BC008570CC /* CMAllMediaVoipView */ = {
+			isa = PBXGroup;
+			children = (
+				20D140812021A2BC008570CC /* CMAllMediaVoipView.h */,
+				20D140822021A2BC008570CC /* CMAllMediaVoipView.m */,
+			);
+			path = CMAllMediaVoipView;
+			sourceTree = "<group>";
+		};
+		20D140832021A2BC008570CC /* CMAllMediaCustomView */ = {
+			isa = PBXGroup;
+			children = (
+				20D140842021A2BC008570CC /* CMAllMediaVerticalButton.m */,
+				20D140852021A2BC008570CC /* CMAllMediaVerticalButton.h */,
+			);
+			path = CMAllMediaCustomView;
+			sourceTree = "<group>";
+		};
+		20D140862021A2BC008570CC /* CMAllMediaRTCChatManager */ = {
+			isa = PBXGroup;
+			children = (
+				20D140872021A2BC008570CC /* CMAllMediaRTCChatManager.h */,
+				20D140882021A2BC008570CC /* CMAllMediaRTCChatManager.m */,
+			);
+			path = CMAllMediaRTCChatManager;
+			sourceTree = "<group>";
+		};
+		20D140892021A2BC008570CC /* CMAllMediaVideoCallView */ = {
+			isa = PBXGroup;
+			children = (
+				20D1408A2021A2BC008570CC /* CMAllMediaVideoCallView.m */,
+				20D1408B2021A2BC008570CC /* CMAllMediaVideoCallView.h */,
+			);
+			path = CMAllMediaVideoCallView;
+			sourceTree = "<group>";
+		};
+		20D1408C2021A2BC008570CC /* CMAllMediaNetworkingManager */ = {
+			isa = PBXGroup;
+			children = (
+				20D1408D2021A2BC008570CC /* CMAllMediaReachability.h */,
+				20D1408E2021A2BC008570CC /* CMAllMediaStatusManager.h */,
+				20D1408F2021A2BC008570CC /* CMAllMediaReachability.m */,
+				20D140902021A2BC008570CC /* CMAllMediaStatusManager.m */,
+			);
+			path = CMAllMediaNetworkingManager;
+			sourceTree = "<group>";
+		};
+		20D140972021A2FF008570CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20D140BA2021A5B0008570CC /* AgoraSignal.framework */,
+				20D140B82021A5A3008570CC /* AgoraRtcEngineKit.framework */,
+				20D140B02021A37E008570CC /* libresolv.tbd */,
+				20D140AE2021A374008570CC /* libc++.tbd */,
+				20D140AC2021A36B008570CC /* libicucore.tbd */,
+				20D140AA2021A360008570CC /* SystemConfiguration.framework */,
+				20D140A82021A35B008570CC /* CFNetwork.framework */,
+				20D140A62021A356008570CC /* CoreTelephony.framework */,
+				20D140A42021A34E008570CC /* CoreMedia.framework */,
+				20D140A22021A346008570CC /* CoreMotion.framework */,
+				20D140A02021A33D008570CC /* VideoToolbox.framework */,
+				20D1409E2021A337008570CC /* AudioToolbox.framework */,
+				20D1409C2021A32E008570CC /* AVFoundation.framework */,
+				20D1409A2021A30A008570CC /* AgoraRtcEngineKit.framework */,
+				20D140982021A2FF008570CC /* AgoraSignal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20D140B42021A48B008570CC /* CMAMMediaSDK */ = {
+			isa = PBXGroup;
+			children = (
+				20D1407F2021A1FF008570CC /* libs */,
+				20D140832021A2BC008570CC /* CMAllMediaCustomView */,
+				20D1408C2021A2BC008570CC /* CMAllMediaNetworkingManager */,
+				20D140862021A2BC008570CC /* CMAllMediaRTCChatManager */,
+				20D140802021A2BC008570CC /* CMAllMediaVoipView */,
+				20D140892021A2BC008570CC /* CMAllMediaVideoCallView */,
+			);
+			path = CMAMMediaSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,9 +430,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20D140912021A2BC008570CC /* CMAllMediaVoipView.m in Sources */,
+				20D140932021A2BC008570CC /* CMAllMediaRTCChatManager.m in Sources */,
 				20D1404F2021A1DD008570CC /* ViewController.m in Sources */,
+				20D140942021A2BC008570CC /* CMAllMediaVideoCallView.m in Sources */,
+				20D140922021A2BC008570CC /* CMAllMediaVerticalButton.m in Sources */,
+				20D140B72021A4D5008570CC /* CMAMNetworkManager.m in Sources */,
+				20D140BE2021AC32008570CC /* CMAMUserInfo.m in Sources */,
 				20D140552021A1DD008570CC /* CMMediaCallDemo.xcdatamodeld in Sources */,
+				20D140952021A2BC008570CC /* CMAllMediaReachability.m in Sources */,
 				20D1405D2021A1DD008570CC /* main.m in Sources */,
+				20D140962021A2BC008570CC /* CMAllMediaStatusManager.m in Sources */,
 				20D1404C2021A1DD008570CC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,8 +605,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				DEVELOPMENT_TEAM = U746D2ER88;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CMMediaCallDemo/libs/signal",
+					"$(PROJECT_DIR)/CMMediaCallDemo/libs/media",
+					"$(PROJECT_DIR)/CMMediaCallDemo/CMAMMediaSDK/libs/media",
+					"$(PROJECT_DIR)/CMMediaCallDemo/CMAMMediaSDK/libs/signal",
+					"$(PROJECT_DIR)/CMMediaCallDemo/CMAMMediaSDK",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CMMediaCallDemo/Header.h";
 				INFOPLIST_FILE = CMMediaCallDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CMMediaCallDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,8 +630,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = M4C7ZCQAKU;
+				DEVELOPMENT_TEAM = U746D2ER88;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CMMediaCallDemo/libs/signal",
+					"$(PROJECT_DIR)/CMMediaCallDemo/libs/media",
+					"$(PROJECT_DIR)/CMMediaCallDemo/CMAMMediaSDK/libs/media",
+					"$(PROJECT_DIR)/CMMediaCallDemo/CMAMMediaSDK/libs/signal",
+					"$(PROJECT_DIR)/CMMediaCallDemo/CMAMMediaSDK",
+				);
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CMMediaCallDemo/Header.h";
 				INFOPLIST_FILE = CMMediaCallDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.CMMediaCallDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
